@@ -1,0 +1,235 @@
+body{
+ margin: 0;
+}
+
+h1{
+    font-family: "Leckerli One", regular;
+}
+
+.name{
+    color: white;
+    font-size: 76px;
+    margin-top: 198px;
+    margin-bottom: 42px;
+}
+
+h2{
+    font-family: "Kufam";
+    font-weight: 400;
+}
+
+.hero{
+  background-color: #694F8E;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding-bottom: 202px;
+}
+
+.programmer{
+   margin: 0;
+   font-size: 32px; 
+   color: #CBADF5
+}
+
+.icon{
+    margin-top: 7px;
+}
+
+.resume{
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    gap: 152px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+
+.first-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.li{
+    display: flex;
+    gap: 13px;
+}
+
+h3{
+    font-family: "Kufam";
+    font-weight: 700;
+    font-size: 20px;
+    color: #694F8E;
+}
+
+.second-list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 281px;
+    justify-content: center;
+    margin-bottom: 78px;
+}
+
+.skills{
+    background-color: #E3A5C7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-name{
+    color: #694F8E;
+    font-size: 48px;
+}
+.design{
+    width: 404px;
+}
+
+.skill-h{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Kufam";
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFDFD6;
+}
+
+.contactme{
+    background-color: #FFDFD6;
+}
+
+.btn{
+background-color: #694F8E;
+color: white;
+border-radius: 30px;
+padding: 17px 47px;
+font-size: 14px; 
+border: none;
+height: 50px;
+width: 180px;
+font-family: "Kufam";
+transition: all 0.3s ease;
+}
+
+.btn:hover{
+     background-color: white;
+     border: 2px solid #694F8E; /* Встановлюємо border при наведенні */
+    color: #694F8E;
+    font-weight: 600;
+}
+
+.row{
+    padding-top: 30px;
+    padding-bottom: 42px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    justify-content: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 518px;
+}
+
+.last-p{
+    color: #FFFFFF; 
+    margin: 0; 
+    margin-top: 32px; 
+    margin-bottom: 55px; 
+    font-size: 16px;
+}
+
+@media (max-width:1145px) {
+    .resume{
+        background-color: white;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 46px;
+        padding-bottom: 46px;
+    }
+    .second-list{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 78px;
+    }
+    .design{
+        width: 70%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .last-p{
+        color: #FFFFFF; 
+        margin: 0; 
+        margin-top: 22px; 
+        margin-bottom: 35px; 
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .laptop-white{
+        width: 60%;
+    }
+    
+    .first-list{
+        width: 75%;
+    }
+    h3{
+        font-size: 15px;
+    }
+
+    
+}
+
+@media (max-width: 500px){
+    .name{
+        font-size: 46px;
+        margin-bottom: 22px;
+    }
+    .programmer{
+        font-size: 18px;
+     }
+     .design{
+        width: 80%;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}
